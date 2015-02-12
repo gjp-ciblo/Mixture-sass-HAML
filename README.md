@@ -1,2 +1,1 @@
-# Mixture-sass-HAML
-Quick starter for mixture.io based on Bootstyleguide
+Mixture + Haml by Jeanphilippe Guillermo inspired by bootstyleguide by Florent Christophe.

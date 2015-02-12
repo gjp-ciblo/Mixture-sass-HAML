@@ -1,0 +1,269 @@
+/* [sass, assets/css, style.scss] */
+/*!
+ * Style
+ *
+ * Copyright 2013 Audacy
+ */
+/* Main */
+/* line 1, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-header {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10; }
+  /* line 10, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+  .bsg-header .navbar-toggle {
+    padding: 0;
+    border-radius: 0; }
+  /* line 14, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+  .bsg-header .navbar-toggle .icon-bar {
+    background: #FFF; }
+
+/* line 18, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-header .navbar-nav {
+  width: 100%; }
+
+/* line 19, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-header .navbar-nav > li > a {
+  padding: 5px 10px; }
+
+/* line 20, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-header .navbar-nav > li > a:hover {
+  background: none; }
+
+/* line 21, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-header .navbar-nav > li:last-child {
+  float: right; }
+
+/* line 22, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-nav {
+  height: 100%;
+  position: relative;
+  top: 45px;
+  bottom: 0;
+  background: #333; }
+  @media (min-width: 768px) {
+    /* line 22, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+    .bsg-nav {
+      position: fixed; } }
+  /* line 29, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+  .bsg-nav .bsg-list {
+    height: 100%; }
+    /* line 31, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+    .bsg-nav .bsg-list .bsg-element {
+      background: #eee;
+      padding: 20px;
+      width: 50%;
+      height: 100%;
+      float: left;
+      text-align: center; }
+      /* line 38, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+      .bsg-nav .bsg-list .bsg-element:hover {
+        background: #ddd; }
+      @media (min-width: 768px) {
+        /* line 31, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+        .bsg-nav .bsg-list .bsg-element {
+          width: 20%; } }
+      /* line 40, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+      .bsg-nav .bsg-list .bsg-element.inactive {
+        background: #333; }
+        /* line 42, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+        .bsg-nav .bsg-list .bsg-element.inactive:hover {
+          background: #333; }
+
+/* line 47, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.icon-bsg {
+  width: 50%;
+  height: 150px;
+  margin: 0 auto;
+  opacity: 0.2; }
+
+/* line 53, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-footer {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10; }
+
+/* line 66, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-left {
+  background: #eee;
+  padding: 60px 10px 20px;
+  z-index: 5; }
+
+/* line 72, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-left .nav-tabs {
+  border: none; }
+
+/* line 73, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-left .nav-tabs > li {
+  border: none; }
+
+/* line 74, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-left .nav-tabs > li > a {
+  border: none; }
+
+/* line 75, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-left .nav-tabs > li.active > a {
+  border: none;
+  border-radius: 0; }
+
+/* line 76, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-left.nav-tabs > li > a:hover {
+  border: none; }
+
+/* line 77, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-right {
+  padding: 50px 10px 0;
+  background: #fff; }
+
+/* line 82, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.bsg-title {
+  width: 100%;
+  border-bottom: 1px dashed #ccc;
+  padding: 5px 0;
+  margin: 30px 0; }
+
+/* line 89, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.row-offcanvas {
+  background: #eee; }
+
+/* line 93, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.row-offcanvas-right {
+  background: #fff; }
+
+/* line 97, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+.row-offcanvas-left {
+  background: #eee; }
+
+@media screen and (max-width: 767px) {
+  /* line 103, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    transition: all .25s ease-out; }
+
+  /* line 110, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+  .row-offcanvas-right {
+    right: 0; }
+
+  /* line 114, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+  .row-offcanvas-left {
+    left: 0;
+    z-index: 0; }
+
+  /* line 119, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%;
+    /* 6 columns */ }
+
+  /* line 124, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%;
+    /* 6 columns */ }
+
+  /* line 129, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+  .row-offcanvas-right.active {
+    right: 50%;
+    /* 6 columns */ }
+
+  /* line 133, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+  .row-offcanvas-left.active {
+    left: 50%;
+    /* 6 columns */ }
+
+  /* line 137, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/bootstyleguide.scss */
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    /* 6 columns */ } }
+/* line 16, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/grid.scss */
+.container {
+  margin: 0 auto;
+  max-width: 1200px; }
+
+/* line 40, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/grid.scss */
+section {
+  margin: 20px 0; }
+
+/* line 1, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/colors.scss */
+.text-primary {
+  color: #FF0000; }
+
+/* line 2, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/colors.scss */
+.text-secondary {
+  color: #00FF00; }
+
+/* line 3, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/colors.scss */
+.text-third {
+  color: #0000FF; }
+
+/* line 5, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/colors.scss */
+.bg-primary {
+  background-color: #FF0000; }
+
+/* line 6, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/colors.scss */
+.bg-secondary {
+  background-color: #00FF00; }
+
+/* line 7, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/colors.scss */
+.bg-third {
+  background-color: #0000FF; }
+
+/* line 29, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/buttons.scss */
+.btn-primary {
+  background-color: #FF0000;
+  border: none;
+  color: #fff; }
+  /* line 34, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/buttons.scss */
+  .btn-primary:hover {
+    background-color: #333;
+    border: none;
+    color: #fff; }
+
+/* line 42, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/buttons.scss */
+.btn-secondary {
+  background-color: #00FF00;
+  border: none;
+  color: #fff; }
+  /* line 46, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/buttons.scss */
+  .btn-secondary:hover {
+    background-color: #333;
+    border: none;
+    color: #fff; }
+
+/* line 54, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/buttons.scss */
+.btn-third {
+  background-color: #0000FF;
+  border: none;
+  color: #fff; }
+  /* line 59, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/buttons.scss */
+  .btn-third:hover {
+    background-color: #333;
+    border: none;
+    color: #fff; }
+
+/* line 1, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/images.scss */
+img {
+  max-width: 100%; }
+
+/* line 9, /Users/gjp/Dropbox/Tools/Mixture-quick-starter v1/assets/css/imports/elements/images.scss */
+.cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* TODO: Animations curently disable, just delete the comment if you want to use it. */

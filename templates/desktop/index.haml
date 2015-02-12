@@ -1,0 +1,29 @@
+=layout :layout
+-content_for :title do
+  %title Mixture + Haml
+
+= render 'layout/navigation'
+
+-# TODO: Remove this after reading
+%section
+  .container
+    .row
+      .col-sm-12
+        %h1
+          Mixture + HAML
+          %img{:src => "/assets/img/logo.png", :width => "100"}
+        %h3
+          Quick starter for mixture.io based on
+          %a{:href => "http://github.com/quakely/bootstyleguide"}
+            Bootstyleguide
+
+        = render :links
+
+        %h4
+          Usage ...
+      
+      %p
+        #{model["description"]}
+        -# TODO: Start awesome project
+        = render 'layout/footer'
+

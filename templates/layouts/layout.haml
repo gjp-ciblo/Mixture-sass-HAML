@@ -1,0 +1,26 @@
+!!!
+%html
+  %head
+
+  %meta{:content => "", :name => "description"}
+  %meta{:content => "", :name => "author"}
+
+  / Mobile viewport optimized: j.mp/bplateviewport
+  %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0, maximum-scale=1.0"}
+  / Place favicon.ico and apple-touch-icon.png in the root of your domain and delete these references
+  %link{:href => "/favicon.ico", :rel => "shortcut icon"}
+
+  %link{:rel => :stylesheet, :type => :"text/css", :href => "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"}
+
+    :Asseturl
+      %link{:href => "style.css", :rel => "stylesheet", :type => "text/css"}
+    = yield :title
+
+      
+    
+    
+  %body
+    = yield
+
+    
+      

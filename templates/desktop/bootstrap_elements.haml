@@ -1,0 +1,77 @@
+=layout :layout
+-content_for :title do
+  %title Mixture + Haml
+
+= render 'layout/navigation'
+
+%section
+  .container
+    .row
+      .col-sm-12
+        %h1
+          Mixture + HAML
+          %img{:src => "/assets/img/logo.png", :width => "100"}
+        
+        %h4
+          Bootstrap HAML modal example
+        %button{:class => "btn btn-primary btn-lg", :type => "button", :data => {:toggle => 'modal', :target => '#myModal'}}
+          Lauch demo modal
+        %div{:class => "modal fade", :id => "myModal", :tabindex => "-1", :role => "dialog", :aria => {:labelledby => 'myModalLabel', :hidden => 'true'}}  
+          .modal-dialog
+            .modal-content
+              .modal-header
+                %button{:type => "button", :class => "close", :data => {:dismiss => 'modal', :label => 'Close'}}
+                  %span{:aria => {:hidden => 'true'}}
+                    close
+                %h4{:class => "modal-title", :id => "myModalLabel"}
+                  Modal title
+              .modal-body
+                %p
+                  here some content
+              .modal-footer
+                %button{:type => "button", :class => "btn btn-default", :data => {:dismiss => 'modal', :label => 'Close'}}
+                  Close
+                %button{:type => "button", :class => "btn btn-primary",}
+                  Save changes
+        
+        %hr         
+
+        %h4
+          Bootstrap HAML collapse example
+
+        %div{:class => "panel-group", :id => "accordion", :role => "tablist", :aria => {:multiselectable => 'true'}}
+          .panel.panel-default
+            %div{:class => "panel-heading", :role => "tab", :id => "headingOne"}
+              %h4.panel-title
+                %a{:href => "#collapseOne", :data => {:toggle => 'collapse', :parent => "#accordion"}}
+                  Collapsible Group Item #1
+
+          %div{:id => "collapseOne", :class => "panel-collapse collapse in", :role => "tabpanel", :aria => {:labelledby => 'headingOne'}}
+            .panel-body
+              %p
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+
+          .panel.panel-default
+            %div{:class => "panel-heading", :role => "tab", :id => "headingTwo"}
+              %h4.panel-title
+                %a{:class => "collapsed", :href => "#collapseTwo", :data => {:toggle => 'collapse', :parent => "#accordion"}}
+                  Collapsible Group Item #2
+
+            %div{:id => "collapseOne", :class => "panel-collapse collapse", :role => "tabpanel", :aria => {:expanded => 'false', :controls => 'collapseTwo'}}
+              Collapsible Group Item #2
+
+            %div{:id => "collapseTwo", :class => "panel-collapse collapse", :role => "tabpanel", :aria => {:labelledby => 'headingTwo'}}
+              .panel-body
+                %p
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+
+
+        %hr
+
+        
+
+
+= render 'layout/footer'
+
+
+  
